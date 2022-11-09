@@ -1,0 +1,12 @@
+package Vraboten;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Vraboten vraboten = new Vraboten();
+		System.out.println("Име:" + vraboten.ime + ".");
+		System.out.println("Презиме:" + vraboten.prezime + ".");
+		System.out.println("Плата" + vraboten.plata + " denari.");
+	}
+
+}

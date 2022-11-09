@@ -1,0 +1,12 @@
+package Proizvod;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Proizvod proizvod = new Proizvod();
+		System.out.println("Цената на " + proizvod.imeNaProizvod + "то" + " so tezhina od " + proizvod.tezina + "г" + " изнесува " + proizvod.cena + " денари.");
+
+	}
+
+}

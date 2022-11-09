@@ -1,0 +1,24 @@
+package oop.fikt.cas2.zad7;
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main (String[] args) {
+		Scanner myInput = new Scanner( System.in );
+		int a,b;
+		double c;
+		
+		System.out.println("Внеси ги страните на еден правоаголен триаголник");
+		System.out.println("А: ");
+		a=myInput.nextInt();
+		System.out.println("Б: ");
+		b=myInput.nextInt();
+		c=StrictMath.hypot(a, b);
+		
+		Triagolnik obj1 = new Triagolnik (a, b, c);
+		
+		System.out.println("Периметарот изнесува: " + obj1.Perimetar()+ "cm");
+		System.out.println("Плоштината изнесува: " + obj1.Plostina()+ "cm2");
+		
+	}
+}
